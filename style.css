@@ -31,6 +31,8 @@ p {
 li {
     color: #fff;
     line-height: 3;
+    padding: 20px;
+    text-align: center;
     
 }
 
@@ -53,6 +55,7 @@ img {
         height: 100vh;
         display: flex;
         justify-content: center;
+        padding: 20px 10px;
         
     }
     h1{
@@ -69,18 +72,24 @@ img {
     li {
         color: #fff;
         line-height: 3;
+        display: inline;
         
     }
     
     img {
-        width: 400px;
+        width: 250px;
         margin-bottom: 2.5rem;
     }
     
     .container {
-        display: grid;
-        flex-direction: column;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: row;
         color: #fff;
+        background-color: var(--Dark-desaturated-blue);
+        height: 45%;
+        margin: 20px 10px;
+
     
     }
     

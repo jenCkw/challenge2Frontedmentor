@@ -16,7 +16,7 @@ body{
     Font-size: 15px;
     font-family:'Big Shoulders Display', cursive;
     width: 320px;
-    height: 250px;
+    height: 20px;
     margin: auto;
     padding-top: 30px;
 }
@@ -27,13 +27,23 @@ body{
     background-color: var(--color-Very-dark-blue);
     border-radius: 2px;
 }
-/*
-h1{
-    font-size: 2em;
-    margin: 2.5rem 0;
-    color: #fff;
-    font-family: Lexend Deca', sans-serif ;
+
+img {
+    width: 300px;
+    background-color: var(--Soft-violet-accent);
 }
+
+h1{
+    font-size: 1.7em;
+    color: #fff;
+    padding: 20px 25px 10px 25px;
+}
+
+span {
+    color: var(--Soft-violet-accent);
+}
+/*
+
 p {
     color: #fff;
     margin-bottom: 2.5rem;
@@ -44,11 +54,6 @@ li {
     padding: 20px;
     text-align: center;
     
-}
-
-img {
-    width: 400px;
-    margin-bottom: 2.5rem;
 }
 
 .container {

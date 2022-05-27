@@ -14,10 +14,20 @@
 
 body{
     Font-size: 15px;
-    background-color: var(--color-Very-dark-blue);
     font-family:'Big Shoulders Display', cursive;
+    width: 320px;
+    height: 250px;
+    margin: auto;
+    padding-top: 30px;
 }
 
+.container {
+    padding: 30px 15px;
+    border: 2px ;
+    background-color: var(--color-Very-dark-blue);
+    border-radius: 2px;
+}
+/*
 h1{
     font-size: 2em;
     margin: 2.5rem 0;

@@ -27,7 +27,9 @@ body{
     background-color: var(--color-Very-dark-blue);
     border-radius: 2px;
 }
-
+.--Soft-violet-accent {
+    color: var(--Soft-violet-accent);
+}
 img {
     width: 300px;
     background-color: var(--Soft-violet-accent);
@@ -37,31 +39,28 @@ h1{
     font-size: 1.7em;
     color: #fff;
     padding: 20px 25px 10px 25px;
+    text-align: center;
 }
 
 span {
     color: var(--Soft-violet-accent);
 }
-/*
 
 p {
     color: #fff;
-    margin-bottom: 2.5rem;
+    text-align: center;
+    line-height: 2;
 }
+
 li {
     color: #fff;
-    line-height: 3;
-    padding: 20px;
+    line-height: 1.5;
     text-align: center;
+    padding-top: 15px;
     
 }
+/*
 
-.container {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-
-}
 
 @media (min-width:45em) {
     body{
